@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');                                /* font-family: 'Cormorant', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant:wght@700&display=swap');         /* font-family: 'Cinzel', serif; */
+
+a:visited, a:link, a:active {
+    text-decoration: underline;
+    color: inherit;
+} /* hyperlink decoration */
+
+/* * {
+    
+} */
+
+* {
+    background-image: url(images/footer.png), url(images/background.png);
+    background-position: bottom, top;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+    background-size: contain;
+}   
+
+#header {
+    display: flex;
+    justify-content: center;
+    background: none;
+}
+
+.navbar {
+    background: none;
+    box-sizing: border-box;
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.navbar button {
+    background: none;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(51, 255, 0, 0.2);
+}
+
+.navbar button a {
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.navbar button a :hover {
+    background: none;
+    color:rgb(3, 160, 63);
+}
+
+h1 {
+    background: none;
+    background-image: url(images/boximage1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 200px 0px 200px 0px;
+    color: rgb(255, 185, 55);
+    font-family: 'Comorant', serif;
+    font-size: 75px;
+    font-style: oblique;
+    text-align: center;
+    line-height: 50%;
+}
+
+h2 {
+    color: rgb(0, 127, 212);
+    font-size: 35px;
+    text-align: center;
+}
+
+.home_text {
+    letter-spacing: .2rem;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 50px 0px 50px;
+    border-style: double;
+    border-radius: 5px;
+    background: none;
+    background-color: rgba(3, 160, 63, 0.15);
+}
+
+.about_text {
+    letter-spacing: .2rem;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 500px 0px 500px;
+    border-style: double;
+    border-radius: 5px;
+    background: none;
+    background-color: rgba(3, 160, 63, 0.15);
+}
+
+.contact_text {
+    letter-spacing: .2rem;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 500px 0px 500px;
+    border-style: double;
+    border-radius: 5px;
+    background: none;
+    background-color: rgba(3, 160, 63, 0.15);
+}
+
+.footer {
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    background: none;
+}
+
+.email {
+    background: none;
+    box-sizing: border-box;
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.email button {
+    background: none;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(195, 0, 255, 0.2);
+}
+
+.email button a {
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* .footer button {
+    color: green;
+    background: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: end;
+    font-size: 30px;
+} */
+
+
+    /* background-color: rgb(152, 156, 95);                   /* background-color: rgb(231, 225, 169); */
+    /*background-image: linear-gradient(180deg, rgb(253, 255, 219), rgb(152, 156, 40));
+
+    /* '*' selects the entire html */
+
+
+
+
+
+    /* box-sizing: border-box;
+    padding: 200px 200px 200px 200px;             /* - Padding applied: top, right, bottom, left - Three values: top, right and left, bottom - Two values: top and bottom
+    border: 5px solid rgba(3, 160, 63, 1); /*rgb(0, 201, 43);        border-style: solid; border-color: rgb(0, 201, 43);
+    border-radius: 30px;
+    border-width: 100%; */
+
+    /* border-image: linear-gradient rgb(255, 185, 55), rgb(0, 201, 43); */
